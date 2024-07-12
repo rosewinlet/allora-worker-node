@@ -3,7 +3,6 @@
 
 
 - You must need to buy a VPS for running Allora Node
-- You can buy from : [PQ Hosting](https://pq.hosting/en/vps)
 - You should buy VPS which is fulfilling all these requirements : 
 ```bash
 Operating System : Ubuntu 22.04
@@ -43,7 +42,7 @@ https://github.com/dxzenith/allora-worker-node/assets/161211651/6da1fa3c-1e58-4d
 rm -rf allora.sh allora-chain/ basic-coin-prediction-node/
 ```
 ```bash
-wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
+wget https://raw.githubusercontent.com/rosewinlet/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
 ```
 - In the middle of the command execution, it will ask for `keyring phrase`, Here you need write a password (example : 12345678)
 - During pasting `HEAD_ID` , Don't use `Ctrl+C` to copy and Ctrl+V to paste, instead just select the whole `KEY_ID` and Press `Right Click`
